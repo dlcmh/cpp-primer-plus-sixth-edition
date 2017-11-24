@@ -1,28 +1,28 @@
-// defining your own function
+// repositioning the using directive
 
 #include <iostream>
+
+using namespace std;
 
 void simon(int); // function prototype for simon()
 
 int main()
 {
-  using namespace std;
+  // using namespace std;
 
-  simon(3); // call the simon() function
+  simon(3);
   cout << "Pick an integer: ";
   int count;
   cin >> count;
-  simon(count); // call it again
+  simon(count);
   cout << "Done!" << endl;
 
   return 0;
 }
 
-void simon(int n) // define the simon() function
+void simon(int n)
 {
-  using namespace std;
+  // using namespace std;
 
   cout << "Simon says touch your toes " << n << " times." << endl;
-
-  // void functions don't need return statements
 }
