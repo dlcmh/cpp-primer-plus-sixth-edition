@@ -1,2 +1,2 @@
-cmd: g++ -Wall "{FILE_ACTIVE_NAME}" && ./a.out
+cmd: g++ -Wall "{FILE_ACTIVE_NAME}"
 cwd: "{FILE_ACTIVE_PATH}"
