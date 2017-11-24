@@ -1,1 +1,1 @@
-# cpp-primer-plus-sixth-edition
+# C++ Primer Plus - 6th Edition
