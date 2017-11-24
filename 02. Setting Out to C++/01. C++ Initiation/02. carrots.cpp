@@ -14,7 +14,7 @@ int main()
   cout << "I have ";
 
   // display the value of the variable
-  // cout auto-coerces integer 25 to a character string
+  // cout's overloaded operator << auto-coerces integer 25 to a character string
   cout << carrots;
 
   cout << " carrots.";
