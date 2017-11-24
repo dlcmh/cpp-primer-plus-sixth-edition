@@ -1,13 +1,13 @@
 // displays a message
 
-#include <iostream>
+#include <iostream> // a PREPROCESSOR directive
 
-int main() {
-  using namespace std;
+int main() { // function header; { starts function body
+  using namespace std; // make definitions visible
 
-  cout << "Come up and C++ me some time.";
-  cout << endl;
-  cout << "You wont't regret it!" << endl;
+  cout << "Come up and C++ me some time."; // message
+  cout << endl; // start a new line
+  cout << "You wont't regret it!" << endl; // more output
 
-  return 0;
-}
+  return 0; // terminate main()
+} // } ends function body
