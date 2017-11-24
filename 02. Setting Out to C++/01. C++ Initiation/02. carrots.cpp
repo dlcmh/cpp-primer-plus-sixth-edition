@@ -12,7 +12,11 @@ int main()
   carrots = 25; // assign a value to the variable
 
   cout << "I have ";
-  cout << carrots; // display the value of the variable
+
+  // display the value of the variable
+  // cout auto-coerces integer 25 to a character string
+  cout << carrots;
+
   cout << " carrots.";
   cout << endl;
 
