@@ -1,2 +1,3 @@
-cmd: g++ -Wall "{FILE_ACTIVE_NAME}" && ./a.out
+# https://stackoverflow.com/questions/14228856/how-to-compile-c-with-c11-support-in-mac-terminal
+cmd: clang++ -std=c++11 -stdlib=libc++ -Wall "{FILE_ACTIVE_NAME}" && ./a.out
 cwd: "{FILE_ACTIVE_PATH}"
